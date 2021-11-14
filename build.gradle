@@ -1,0 +1,18 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.32'
+}
+
+group 'me.coweery'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+
+    testImplementation "com.esri.geometry:esri-geometry-api:2.2.4"
+    testImplementation "junit:junit:4.13.2"
+}
